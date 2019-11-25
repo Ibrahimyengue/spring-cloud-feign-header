@@ -1,12 +1,7 @@
-package com.ibrahimyengue.feignheader.translator.model;
+package com.ibrahimyengue.feignheader.testapp.client.model;
 
 public class MessageResponse {
-
     private String message;
-
-    public MessageResponse(String message) {
-        this.message = message;
-    }
 
     public String getMessage() {
         return message;
